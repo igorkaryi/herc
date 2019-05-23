@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - BLKFlexibleHeightBar (1.0.2)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - DAKeyboardControl (2.4.0)
+  - iCarousel (1.8.3)
+  - lottie-ios (2.5.3)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - SAMTextView (0.2.2)
+  - SMPageControl (1.2)
+  - SSKeychain (1.4.1)
+  - UIDevice-Hardware (0.1.13)
+
+DEPENDENCIES:
+  - AFNetworking/NSURLSession
+  - BLKFlexibleHeightBar
+  - BlocksKit
+  - Charts (~> 3.0)
+  - DAKeyboardControl
+  - iCarousel
+  - lottie-ios (~> 2.5.0)
+  - Reachability
+  - ReactiveObjC
+  - Realm
+  - SAMTextView
+  - SMPageControl
+  - SSKeychain
+  - UIDevice-Hardware
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BLKFlexibleHeightBar
+    - BlocksKit
+    - Charts
+    - DAKeyboardControl
+    - iCarousel
+    - lottie-ios
+    - Reachability
+    - ReactiveObjC
+    - Realm
+    - SAMTextView
+    - SMPageControl
+    - SSKeychain
+    - UIDevice-Hardware
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BLKFlexibleHeightBar: b27572a69633d8e33f1f2bbc486b04d8e86f742d
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  DAKeyboardControl: 9d9bca22a5cc3c1d3cc61e24fbd208c3e84a3d2d
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  UIDevice-Hardware: c10ce5703fa8de762079b84236c548cf31223531
+
+PODFILE CHECKSUM: c6adb659857c77de967d657d2c9014abff1a8c71
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="probanav2-bold-webfont.ttf">
+            <string>ProbaNav2-Bold</string>
+        </array>
+        <array key="probanav2-regular-webfont.ttf">
+            <string>ProbaNav2-Regular</string>
+        </array>
+        <array key="probanav2-semibold-webfont.ttf">
+            <string>ProbaNav2-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddCardMpInfoViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ce6-Fl-LZY">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g1W-hx-IJj">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="522.5"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masterpass_wallet-add" translatesAutoresizingMaskIntoConstraints="NO" id="p01-9Q-XlC">
+                                    <rect key="frame" x="108.5" y="22" width="158" height="102"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Додайте картку" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hni-vj-xWd">
+                                    <rect key="frame" x="98" y="144" width="179" height="30.5"/>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-Bold" family="Proba Nav2" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Додайте картку, щоб купувати квитки. Для вас автоматично буде створено гаманець Masterpass.  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHd-XR-XUM">
+                                    <rect key="frame" x="30" y="184.5" width="315" height="59"/>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-Regular" family="Proba Nav2" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Що таке Masterpass-гаманець?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNU-QX-6KZ">
+                                    <rect key="frame" x="85" y="258.5" width="205" height="30"/>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-Regular" family="Proba Nav2" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQB-VH-XHL">
+                                    <rect key="frame" x="85" y="288" width="205" height="0.5"/>
+                                    <color key="backgroundColor" red="0.13725490196078433" green="0.12156862745098039" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="0.5" id="vDj-5o-OoB"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Px-5k-9xV">
+                                    <rect key="frame" x="85" y="258.5" width="205" height="30"/>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-Regular" family="Proba Nav2" pointSize="14"/>
+                                    <connections>
+                                        <action selector="aboutHandler:" destination="-1" eventType="touchUpInside" id="oBC-Bj-Sz2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAa-8h-U6J">
+                                    <rect key="frame" x="40" y="339.5" width="295" height="44"/>
+                                    <color key="backgroundColor" red="0.80392156859999997" green="0.81176470590000005" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="mlR-qS-R4j"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-SemiBold" family="Proba Nav2" pointSize="16"/>
+                                    <state key="normal" title="Додати картку">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="bgUIColor">
+                                            <color key="value" red="0.14117647058823529" green="0.67450980392156867" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                                            <real key="value" value="22"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="addCardHandler:" destination="-1" eventType="touchUpInside" id="gq8-ep-LCS"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5m-oK-2Qe">
+                                    <rect key="frame" x="40" y="398.5" width="295" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="J1X-Rh-yYM"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="ProbaNav2-SemiBold" family="Proba Nav2" pointSize="16"/>
+                                    <state key="normal" title="Додати картку пізніше">
+                                        <color key="titleColor" red="0.14117647058823529" green="0.67450980392156867" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="0.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
+                                            <color key="value" red="0.14117647058823529" green="0.67450980392156867" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
+                                            <real key="value" value="22"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="laterHandler:" destination="-1" eventType="touchUpInside" id="HM2-3a-5v4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="L5m-oK-2Qe" firstAttribute="trailing" secondItem="HAa-8h-U6J" secondAttribute="trailing" id="1Ud-hq-cld"/>
+                                <constraint firstItem="p01-9Q-XlC" firstAttribute="centerX" secondItem="g1W-hx-IJj" secondAttribute="centerX" id="5Pb-2C-6E1"/>
+                                <constraint firstItem="0Px-5k-9xV" firstAttribute="top" secondItem="bNU-QX-6KZ" secondAttribute="top" id="61l-D0-uTi"/>
+                                <constraint firstItem="L5m-oK-2Qe" firstAttribute="leading" secondItem="HAa-8h-U6J" secondAttribute="leading" id="9Y8-Or-HbI"/>
+                                <constraint firstItem="IHd-XR-XUM" firstAttribute="leading" secondItem="g1W-hx-IJj" secondAttribute="leading" constant="30" id="9eK-S5-2Q9"/>
+                                <constraint firstItem="bNU-QX-6KZ" firstAttribute="top" secondItem="IHd-XR-XUM" secondAttribute="bottom" constant="15" id="Eui-6k-ESE"/>
+                                <constraint firstItem="hni-vj-xWd" firstAttribute="top" secondItem="p01-9Q-XlC" secondAttribute="bottom" constant="20" id="F4v-if-lr7"/>
+                                <constraint firstItem="yQB-VH-XHL" firstAttribute="bottom" secondItem="bNU-QX-6KZ" secondAttribute="bottom" id="GaZ-ns-iZD"/>
+                                <constraint firstAttribute="trailing" secondItem="IHd-XR-XUM" secondAttribute="trailing" constant="30" id="Myh-ot-JIh"/>
+                                <constraint firstItem="IHd-XR-XUM" firstAttribute="top" secondItem="hni-vj-xWd" secondAttribute="bottom" constant="10" id="QgI-d2-LhE"/>
+                                <constraint firstItem="HAa-8h-U6J" firstAttribute="top" secondItem="bNU-QX-6KZ" secondAttribute="bottom" constant="51" id="Vr5-ds-Am7"/>
+                                <constraint firstItem="hni-vj-xWd" firstAttribute="centerX" secondItem="g1W-hx-IJj" secondAttribute="centerX" id="dAy-pz-Mcq"/>
+                                <constraint firstItem="0Px-5k-9xV" firstAttribute="leading" secondItem="bNU-QX-6KZ" secondAttribute="leading" id="eHJ-Ko-DoP"/>
+                                <constraint firstItem="L5m-oK-2Qe" firstAttribute="top" secondItem="HAa-8h-U6J" secondAttribute="bottom" constant="15" id="gam-Cb-hJV"/>
+                                <constraint firstItem="0Px-5k-9xV" firstAttribute="trailing" secondItem="bNU-QX-6KZ" secondAttribute="trailing" id="hAx-9H-bka"/>
+                                <constraint firstItem="yQB-VH-XHL" firstAttribute="trailing" secondItem="bNU-QX-6KZ" secondAttribute="trailing" id="jbr-56-dEa"/>
+                                <constraint firstAttribute="trailing" secondItem="L5m-oK-2Qe" secondAttribute="trailing" constant="40" id="kdy-ab-oMJ"/>
+                                <constraint firstItem="L5m-oK-2Qe" firstAttribute="leading" secondItem="g1W-hx-IJj" secondAttribute="leading" constant="40" id="mbg-Sy-xFh"/>
+                                <constraint firstItem="bNU-QX-6KZ" firstAttribute="centerX" secondItem="g1W-hx-IJj" secondAttribute="centerX" id="o3M-F3-6sr"/>
+                                <constraint firstAttribute="bottom" secondItem="L5m-oK-2Qe" secondAttribute="bottom" constant="80" id="p9Y-np-cHx"/>
+                                <constraint firstItem="yQB-VH-XHL" firstAttribute="leading" secondItem="bNU-QX-6KZ" secondAttribute="leading" id="pVq-1f-dps"/>
+                                <constraint firstItem="p01-9Q-XlC" firstAttribute="top" secondItem="g1W-hx-IJj" secondAttribute="top" constant="22" id="qeY-fn-sMr"/>
+                                <constraint firstItem="0Px-5k-9xV" firstAttribute="bottom" secondItem="bNU-QX-6KZ" secondAttribute="bottom" id="wWX-z9-IOz"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="g1W-hx-IJj" firstAttribute="leading" secondItem="ce6-Fl-LZY" secondAttribute="leading" id="2Ba-Up-Chf"/>
+                        <constraint firstAttribute="trailing" secondItem="g1W-hx-IJj" secondAttribute="trailing" id="EJn-kD-02x"/>
+                        <constraint firstAttribute="bottom" secondItem="g1W-hx-IJj" secondAttribute="bottom" id="TWJ-JA-nYJ"/>
+                        <constraint firstItem="g1W-hx-IJj" firstAttribute="top" secondItem="ce6-Fl-LZY" secondAttribute="top" id="yuU-Ls-xoT"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g1W-hx-IJj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="0KZ-h9-ylt"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="ce6-Fl-LZY" secondAttribute="bottom" id="FNg-V2-C89"/>
+                <constraint firstItem="ce6-Fl-LZY" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" priority="750" id="Qdp-Rm-4sc"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ce6-Fl-LZY" secondAttribute="trailing" id="ZgA-s7-wt2"/>
+                <constraint firstItem="ce6-Fl-LZY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="hov-gK-YYY"/>
+                <constraint firstItem="ce6-Fl-LZY" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="pAx-y1-kTo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="masterpass_wallet-add" width="158" height="102"/>
+    </resources>
+</document>

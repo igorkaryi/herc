@@ -1,0 +1,6 @@
+framework module Pods_metro {
+  umbrella header "Pods-metro-umbrella.h"
+
+  export *
+  module * { export * }
+}

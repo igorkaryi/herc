@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="probanav2-medium-webfont.ttf">
+            <string>ProbaNav2-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoaderViewController">
+            <connections>
+                <outlet property="animationView" destination="kYT-ty-UO1" id="zeg-mS-X4u"/>
+                <outlet property="view" destination="CWp-0a-nUt" id="bkV-9u-u4J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="CWp-0a-nUt">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="UWY-sk-IAC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-icon-tickets" translatesAutoresizingMaskIntoConstraints="NO" id="Fb2-72-6ro">
+                    <rect key="frame" x="126.5" y="168" width="122" height="131"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="122" id="JBK-Nj-ebO"/>
+                        <constraint firstAttribute="height" constant="131" id="ppa-60-ExO"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yq8-rk-gf7">
+                    <rect key="frame" x="0.0" y="587" width="375" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emP-mv-srF">
+                            <rect key="frame" x="0.0" y="0.0" width="177.5" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="TDE-bl-65J"/>
+                            </constraints>
+                            <state key="normal" image="tcLogoWhite"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyJ-s3-2g3">
+                            <rect key="frame" x="197.5" y="0.0" width="177.5" height="40"/>
+                            <state key="normal" image="mcLogoWhite"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AyJ-s3-2g3" secondAttribute="trailing" id="6I1-ws-7Pl"/>
+                        <constraint firstItem="AyJ-s3-2g3" firstAttribute="leading" secondItem="emP-mv-srF" secondAttribute="trailing" constant="20" id="BWp-kt-rJh"/>
+                        <constraint firstItem="AyJ-s3-2g3" firstAttribute="width" secondItem="emP-mv-srF" secondAttribute="width" id="HJq-Vp-YV2"/>
+                        <constraint firstItem="emP-mv-srF" firstAttribute="top" secondItem="Yq8-rk-gf7" secondAttribute="top" id="Ugo-VJ-5yO"/>
+                        <constraint firstItem="emP-mv-srF" firstAttribute="leading" secondItem="Yq8-rk-gf7" secondAttribute="leading" id="Vlk-pa-uOC"/>
+                        <constraint firstItem="AyJ-s3-2g3" firstAttribute="top" secondItem="Yq8-rk-gf7" secondAttribute="top" id="gpI-fO-nSq"/>
+                        <constraint firstAttribute="bottom" secondItem="emP-mv-srF" secondAttribute="bottom" id="w3V-Kf-a26"/>
+                        <constraint firstAttribute="bottom" secondItem="AyJ-s3-2g3" secondAttribute="bottom" id="yLO-GP-DcF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kYT-ty-UO1">
+                    <rect key="frame" x="126.5" y="168" width="122" height="131"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreetHeaderText" translatesAutoresizingMaskIntoConstraints="NO" id="Tjo-yP-CFu">
+                    <rect key="frame" x="107.5" y="77" width="160" height="41"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kyiv Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77L-Fm-YbH">
+                    <rect key="frame" x="120" y="332" width="135" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="ProbaNav2-Medium" family="Proba Nav2" pointSize="36"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="IGx-v2-MsN" firstAttribute="bottom" secondItem="Yq8-rk-gf7" secondAttribute="bottom" constant="40" id="9WK-CY-Slb"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="bottom" secondItem="kYT-ty-UO1" secondAttribute="bottom" id="BxF-BJ-ess"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="leading" secondItem="kYT-ty-UO1" secondAttribute="leading" id="CqY-Je-3rq"/>
+                <constraint firstItem="IGx-v2-MsN" firstAttribute="bottom" secondItem="UWY-sk-IAC" secondAttribute="bottom" id="GZH-CY-Uv2"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="centerX" secondItem="CWp-0a-nUt" secondAttribute="centerX" id="L8d-VM-3Vj"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="trailing" secondItem="kYT-ty-UO1" secondAttribute="trailing" id="Nyr-at-ulW"/>
+                <constraint firstItem="UWY-sk-IAC" firstAttribute="leading" secondItem="IGx-v2-MsN" secondAttribute="leading" id="Tiu-mM-IOb"/>
+                <constraint firstItem="IGx-v2-MsN" firstAttribute="trailing" secondItem="UWY-sk-IAC" secondAttribute="trailing" id="a2N-fx-MxV"/>
+                <constraint firstItem="Yq8-rk-gf7" firstAttribute="leading" secondItem="IGx-v2-MsN" secondAttribute="leading" id="cW2-ld-c3l"/>
+                <constraint firstItem="IGx-v2-MsN" firstAttribute="trailing" secondItem="Yq8-rk-gf7" secondAttribute="trailing" id="mne-Ed-dIk"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="top" secondItem="kYT-ty-UO1" secondAttribute="top" id="ole-QT-Vv7"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="top" secondItem="Tjo-yP-CFu" secondAttribute="bottom" constant="50" id="pAg-iJ-6vr"/>
+                <constraint firstItem="UWY-sk-IAC" firstAttribute="top" secondItem="CWp-0a-nUt" secondAttribute="top" id="rKq-Oi-Qc7"/>
+                <constraint firstItem="Fb2-72-6ro" firstAttribute="centerY" secondItem="CWp-0a-nUt" secondAttribute="centerY" constant="-100" id="vnB-B2-yis"/>
+                <constraint firstItem="Tjo-yP-CFu" firstAttribute="centerX" secondItem="CWp-0a-nUt" secondAttribute="centerX" id="zeo-rM-RZM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="IGx-v2-MsN"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgImage" width="1600" height="2840"/>
+        <image name="launchScreetHeaderText" width="160" height="41"/>
+        <image name="mcLogoWhite" width="88" height="15"/>
+        <image name="menu-icon-tickets" width="173" height="180"/>
+        <image name="tcLogoWhite" width="66" height="22"/>
+    </resources>
+</document>

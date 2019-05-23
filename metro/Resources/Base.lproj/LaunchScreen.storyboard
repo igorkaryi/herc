@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="probanav2-bold-webfont.ttf">
+            <string>ProbaNav2-Bold</string>
+        </array>
+        <array key="probanav2-medium-webfont.ttf">
+            <string>ProbaNav2-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q1r-Ey-l73"/>
+                        <viewControllerLayoutGuide type="bottom" id="8c3-qc-Rb5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="16Z-tw-94q">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-icon-tickets" translatesAutoresizingMaskIntoConstraints="NO" id="E7P-AB-APn">
+                                <rect key="frame" x="99" y="166" width="122" height="131"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="LSW-fl-8ko"/>
+                                    <constraint firstAttribute="height" constant="131" id="yR9-K2-zCM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyiv Pay " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YwD-Au-EdS">
+                                <rect key="frame" x="88" y="316.5" width="144" height="46"/>
+                                <fontDescription key="fontDescription" name="ProbaNav2-Bold" family="Proba Nav2" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YE-Uf-rLC">
+                                <rect key="frame" x="0.0" y="488" width="320" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gt-jB-dRZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Stt-bS-dSl"/>
+                                        </constraints>
+                                        <state key="normal" image="tcLogoWhite"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ra8-XJ-dtF">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="40"/>
+                                        <state key="normal" image="mcLogoWhite"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ra8-XJ-dtF" secondAttribute="trailing" id="8O3-Hu-YMp"/>
+                                    <constraint firstItem="8gt-jB-dRZ" firstAttribute="leading" secondItem="3YE-Uf-rLC" secondAttribute="leading" id="CiT-Uk-4oX"/>
+                                    <constraint firstAttribute="bottom" secondItem="8gt-jB-dRZ" secondAttribute="bottom" id="Mxe-2S-8Zv"/>
+                                    <constraint firstItem="ra8-XJ-dtF" firstAttribute="top" secondItem="3YE-Uf-rLC" secondAttribute="top" id="O2O-KB-xhq"/>
+                                    <constraint firstAttribute="bottom" secondItem="ra8-XJ-dtF" secondAttribute="bottom" id="SCn-3j-EyM"/>
+                                    <constraint firstItem="ra8-XJ-dtF" firstAttribute="width" secondItem="8gt-jB-dRZ" secondAttribute="width" id="ePU-nu-bwR"/>
+                                    <constraint firstItem="ra8-XJ-dtF" firstAttribute="leading" secondItem="8gt-jB-dRZ" secondAttribute="trailing" constant="20" id="g21-Yd-2fM"/>
+                                    <constraint firstItem="8gt-jB-dRZ" firstAttribute="top" secondItem="3YE-Uf-rLC" secondAttribute="top" id="ozB-tl-FXc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="КИЇВСЬКИЙ ТРАНСПОРТ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTM-As-Oau">
+                                <rect key="frame" x="53.5" y="60" width="213" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Gpq-wv-ycy"/>
+                                    <constraint firstAttribute="width" constant="213" id="HQD-re-oLB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProbaNav2-Medium" family="Proba Nav2" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="BTM-As-Oau" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4rz-zs-xCZ"/>
+                            <constraint firstItem="16Z-tw-94q" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6Fa-gL-0Hb"/>
+                            <constraint firstItem="E7P-AB-APn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9Ig-xi-fxf"/>
+                            <constraint firstItem="8c3-qc-Rb5" firstAttribute="top" secondItem="3YE-Uf-rLC" secondAttribute="bottom" constant="40" id="J44-OQ-FYe"/>
+                            <constraint firstItem="16Z-tw-94q" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KYh-sj-bRd"/>
+                            <constraint firstAttribute="trailing" secondItem="3YE-Uf-rLC" secondAttribute="trailing" id="MMf-cj-mRU"/>
+                            <constraint firstItem="8c3-qc-Rb5" firstAttribute="top" secondItem="16Z-tw-94q" secondAttribute="bottom" id="R0J-sy-Kah"/>
+                            <constraint firstItem="3YE-Uf-rLC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dNV-im-qf1"/>
+                            <constraint firstItem="YwD-Au-EdS" firstAttribute="top" secondItem="E7P-AB-APn" secondAttribute="bottom" constant="19.5" id="hTD-n1-7i6"/>
+                            <constraint firstItem="BTM-As-Oau" firstAttribute="top" secondItem="q1r-Ey-l73" secondAttribute="bottom" constant="40" id="l6W-Vg-SAI"/>
+                            <constraint firstItem="E7P-AB-APn" firstAttribute="top" secondItem="BTM-As-Oau" secondAttribute="bottom" constant="40" id="rE9-iB-SQB"/>
+                            <constraint firstAttribute="trailing" secondItem="16Z-tw-94q" secondAttribute="trailing" id="vlf-BP-TvX"/>
+                            <constraint firstItem="YwD-Au-EdS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yld-aU-fWe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgImage" width="1600" height="2840"/>
+        <image name="mcLogoWhite" width="88" height="15"/>
+        <image name="menu-icon-tickets" width="173" height="180"/>
+        <image name="tcLogoWhite" width="66" height="22"/>
+    </resources>
+</document>

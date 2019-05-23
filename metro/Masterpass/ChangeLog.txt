@@ -1,0 +1,332 @@
+
+Version 40.7
+**********************************************************
+
+- retRef is added in MfsResponse.
+
+
+Version 40.7
+**********************************************************
+
+- MfsTextFieldCallback is added
+
+
+Version 40.6
+**********************************************************
+
+- resultUrl3D is added
+
+
+Version 40.5
+**********************************************************
+
+- MfsCard protocol is deleted
+
+
+Version 40.4
+**********************************************************
+
+- type 4 is added for MfsTextField
+
+- isEmpty is added in MfsTextField
+
+
+Version 40.3
+**********************************************************
+
+- additionalParameters change as additionalParams
+
+
+Version 40.2
+**********************************************************
+
+- IOS11 setAttributedPlaceholder problem fix
+
+
+Version 40.1
+**********************************************************
+
+- IOS11 placeholder unseen problem fix
+
+- fixes MfsTextField callbacks
+
+- userCancelled flag added in MfsCardIOResponse
+
+- cardIOLanguage added in MfsIOSLibrary
+
+- MfsWebViewCallback added. 
+
+- E005 response Code added
+
+- Luhn Algorithm added
+
+- Cvv length control added
+
+
+Version 40
+**********************************************************
+
+- MfsTextField remove character in any cursor position enable  
+
+- Add E101 error code for direct purchase
+
+- empty string encryption hsm error fix
+
+- Cvv length control add for type:3
+
+
+Version 39.9
+**********************************************************
+
+- cvv encryption
+
+- MfsTextField - textAlignment method add
+
+- fix macroMerchantId missing problem for Direct Purchase and Register&Purchase
+
+
+Version 39.8
+**********************************************************
+
+- Add E101 error code
+
+- remove unused program parameters
+
+
+Version 39.7
+**********************************************************
+
+- Static error code for 3D payment (4058)
+
+
+Version 39.6
+**********************************************************
+
+- remove storyboard control in initWithCoder
+
+
+Version 39.5
+**********************************************************
+
+- fix bug in resendOtp
+
+
+Version 39.4
+**********************************************************
+
+- additionalParameters support
+
+
+Version 39.3
+**********************************************************
+
+- add clear text method to MfsTextField
+
+
+Version 39.2
+**********************************************************
+
+- support both url with '/' and without '/'
+
+
+Version 39
+**********************************************************
+
+- add installment count and reward parameters for pay, directPurchase and purchaseAndRegister
+
+
+Version 38.2
+**********************************************************
+
+- add theNewMsisdn in MfsResponse
+
+
+Version 38.1
+**********************************************************
+
+- alignment for TextField
+
+
+Version 38
+**********************************************************
+
+- add UpdateUser 
+
+- add orderNo parameter to DirectPurchase and PurchaseAndRegister
+
+
+Version 37.6
+**********************************************************
+
+- add orderNo parameter
+
+
+Version 37.5
+**********************************************************
+
+- fix bug in setMaxLength 
+
+
+Version 37.4
+**********************************************************
+
+- sending cvv clear
+
+- add security measure for cvv
+
+
+Version 37.3
+**********************************************************
+
+- add setMaxLength in MfsTextField.
+
+- fix calling wrong handler in error case for checkMasterPassEndUser
+
+
+Version 37.2
+**********************************************************
+
+- add token2 parameter to completeRegistration
+
+- add first6Chars callback for first 6 digit of the card number
+
+
+Version 37.1
+**********************************************************
+
+- return 0 to cardType callback when delete card number
+
+
+Version 37
+**********************************************************
+
+- support external UI Stroyboard
+
+
+Version 36.1
+**********************************************************
+
+- add initWithFrame in MfsTextField
+
+
+Version 36
+**********************************************************
+
+- add verifyPin
+
+
+Version 35
+**********************************************************
+
+- add cardIO
+
+- fix isEqualTo function in MfsTextField
+
+
+Version 34.4
+**********************************************************
+
+- add cvv parameter to pay
+
+
+Version 33.3
+**********************************************************
+
+- add changeMsisdn
+
+
+Version 33.2
+**********************************************************
+
+- add card type callback
+
+
+Version 33.1
+**********************************************************
+
+- make cvv parameter optional
+
+
+Version 33
+**********************************************************
+
+- add 3d payment
+
+- add cvv/cvc2
+
+
+Version 31
+**********************************************************
+
+- fix date time utc issue for 24h format and Locale English
+
+
+Version 30
+**********************************************************
+
+- add directPurchase
+
+- add resendOtp
+
+
+Version 29.5
+**********************************************************
+
+- cardId added in card class
+
+
+Version 29.4
+**********************************************************
+
+- add becomeFirstResponder
+
+
+Version 29
+**********************************************************
+
+- add bankIca, loyaltyCode and productName in MfsCard
+
+- Minimum iOS version change 8.4 to 8.0
+
+- remove becomeFirstResponder
+
+
+Version 28
+**********************************************************
+
+- clientType added for http request
+
+
+Version 27
+**********************************************************
+
+- remove orderNo and macroMerchantId
+
+- remove installment count and reward in Purchase
+
+
+Version 25.1
+**********************************************************
+
+- fix encryption problem with empty character in card number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChartView">
+            <connections>
+                <outlet property="chartView" destination="ekK-ME-Mc2" id="gNC-tp-0eR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="237"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekK-ME-Mc2" customClass="BarChartView" customModule="Charts">
+                    <rect key="frame" x="0.0" y="0.0" width="267" height="237"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ekK-ME-Mc2" secondAttribute="trailing" id="37m-kZ-TqU"/>
+                <constraint firstItem="ekK-ME-Mc2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RMt-qm-Sb2"/>
+                <constraint firstAttribute="bottom" secondItem="ekK-ME-Mc2" secondAttribute="bottom" id="VxF-Be-qEj"/>
+                <constraint firstItem="ekK-ME-Mc2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eMX-H8-bKs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-19.5" y="-161.5"/>
+        </view>
+    </objects>
+</document>
